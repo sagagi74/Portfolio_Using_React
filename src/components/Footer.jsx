@@ -1,10 +1,19 @@
 import React from 'react';
+import githubIcon from '../assets/github.png';
+import linkedinIcon from '../assets/linkedin.png';
+import twitterIcon from '../assets/twitter.png';
 
 const Footer = () => (
-  <footer>
-    <a href="https://github.com/sagagi74">GitHub</a>
-    <a href="https://www.linkedin.com/in/tim-yong-woo-yun-0a272245/">LinkedIn</a>
-    <a href="https://x.com/home?lang=en">Twitter</a>
+  <footer className="footer">
+    <a href="https://github.com/sagagi74" target="_blank" rel="noopener noreferrer" className="icon">
+      <img src={githubIcon} alt="GitHub" className="icon-image" />
+    </a>
+    <a href="https://www.linkedin.com/in/tim-yong-woo-yun-0a272245/" target="_blank" rel="noopener noreferrer" className="icon">
+      <img src={linkedinIcon} alt="LinkedIn" className="icon-image" />
+    </a>
+    <a href="https://x.com/home?lang=en" target="_blank" rel="noopener noreferrer" className="icon">
+      <img src={twitterIcon} alt="Twitter" className="icon-image" />
+    </a>
   </footer>
 );
 
