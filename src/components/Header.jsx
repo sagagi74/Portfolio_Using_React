@@ -3,7 +3,7 @@ import Navigation from './Navigation';
 
 const Header = () => (
   <header>
-    <h1>Tim Yong Yun Portfolio</h1>
+    <h1>Tim Yong Yun</h1>
     <Navigation />
   </header>
 );

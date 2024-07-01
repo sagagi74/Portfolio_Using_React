@@ -1,12 +1,12 @@
 import React from 'react';
-import profileImage from '../assets/yongprofile.jpg';
+import profileImage from '../assets/yong.png';
 
 const AboutMe = () => (
-  <section>
+  <section className="about-me">
     <h2>About Me</h2>
-    <img src={profileImage} alt="yongyun" style={{ width: '150px', borderRadius: '50%' }} />
+    <img src={profileImage} alt="Developer" className="profile-image" />
     <p>
-      yongwoo yun
+    16 years of my professional management career with e-commerce management, online marketing, paid social marketing, information technology, supply chain, and ERP experiences, starting from application/web developer to CTO, I have been facing very challenging tasks and I was able to successfully deliver the results focusing on start-up business or rebuild current business structures
     </p>
   </section>
 );
