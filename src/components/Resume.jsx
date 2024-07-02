@@ -11,7 +11,7 @@ const Resume = () => (
       height="600px"
       title="Resume"
     >
-      Your browser does not support iframes.
+      Your browser might not support iframes, please use Chrome browser.
     </iframe>
     <h3>Proficiencies</h3>
     <ul className="proficiencies">

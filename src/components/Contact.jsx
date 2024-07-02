@@ -29,7 +29,7 @@ const Contact = () => {
       console.log('Form submitted', formData);
       // nothing happens because I did not implement the email API yet
     } else {
-      setErrors(formErrors); // Set validation errors if any
+      setErrors(formErrors); // validation errors 
     }
   };
 
