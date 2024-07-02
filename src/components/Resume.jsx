@@ -1,9 +1,10 @@
 import React from 'react';
 import resume from '../assets/yong.pdf';
-//resume page wiht iframe
+
 const Resume = () => (
   <section className="resume">
     <h2>Resume</h2>
+    <a href={resume} download="Yong_Woo_Yun_Resume.pdf" className="btn btn-download">Download Resume</a>
     <iframe
       src={resume}
       width="100%"
@@ -20,6 +21,7 @@ const Resume = () => (
       <li>Node.js</li>
       <li>Express</li>
       <li>MongoDB</li>
+      {/* Add more proficiencies as needed */}
     </ul>
   </section>
 );

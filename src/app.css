@@ -158,6 +158,17 @@ footer a:hover {
   transform: scale(1.05);
 }
 
+.btn-download {
+  background-color: #ff69b4;
+  color: #fff;
+  margin: 1rem 0;
+}
+
+.btn-download:hover {
+  background-color: #ff1493;
+  transform: scale(1.05);
+}
+
 /* Portfolio styling */
 .portfolio-grid {
   display: grid;
@@ -204,6 +215,7 @@ footer a:hover {
 
 /* Resume styling */
 .resume {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
