@@ -3,7 +3,7 @@ import Project from './Project';
 import image1 from '../assets/goat_ecommerce.jpg';
 import image2 from '../assets/Project_Goat_Small.jpg';
 import image3 from '../assets/mvc.gif';
-import image4 from '../assets/react.jpg';
+import image4 from '../assets/React.jpg';
 import image5 from '../assets/note.gif';
 import image6 from '../assets/backend.gif';
 //portfolio page 
