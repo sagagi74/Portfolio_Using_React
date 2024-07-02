@@ -30,7 +30,7 @@ const projects = [
   {
     title: 'Yong Portfolio Using React',
     image: image4,
-    deployedLink: 'https://ojds2022.github.io/goat_calorie_tracker/',
+    deployedLink: 'https://main--dainty-alpaca-4a7cb9.netlify.app/',
     repoLink: 'https://github.com/sagagi74/Portfolio_Using_React'
   },
   {
