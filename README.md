@@ -1,31 +1,6 @@
 # Portfolio_Using_React
 Portfolio_Using_React
 
-Project Structure
-
-/public
-  index.html
-  vite.svg
-/src
-  /assets
-    some images
-  /components
-    AboutMe.jsx
-    Contact.jsx
-    Footer.jsx
-    Header.jsx
-    Navigation.jsx
-    Portfolio.jsx
-    Project.jsx
-    Resume.jsx
-  app.css
-  app.jsx
-  index.css
-  main.jsx
-.eslintrc.cjs
-.gitignore
-package.json
-vite.config.js
 
 
 Summary of Technologies Used
