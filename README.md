@@ -6,12 +6,19 @@ Portfolio_Using_React
 Summary of Technologies Used
 
 -React: A JavaScript library for building user interfaces, used to create the single-page application portfolio.
+
 -React Router DOM: A library used for routing in React applications, enabling navigation between different sections of the portfolio.
+
 -Vite: A build tool that provides a faster and leaner development experience for modern web projects, used to build and serve the React application.
+
 -CSS: Cascading Style Sheets used for styling the portfolio, including layout, colors, and hover effects.
+
 -JavaScript: The programming language used to write the React components and handle interactivity.
+
 -HTML: The markup language used to structure the index.html file and the content within the React components.
+
 -ESLint: A tool for identifying and fixing problems in JavaScript code, used to ensure code quality and consistency.
+
 -Node.js and npm: Node.js is a JavaScript runtime used for running the development server, and npm is the package manager used to install dependencies.
 
 Functionality 
