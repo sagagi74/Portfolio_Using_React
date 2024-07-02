@@ -80,9 +80,9 @@ footer .icon:hover .icon-image {
 }
 
 .icon-image {
-  width: 40px; /* Adjust the size as needed */
-  height: 40px; /* Adjust the size as needed */
-  transition: transform 0.3s ease; /* Smooth transition for scaling */
+  width: 40px; 
+  height: 40px; 
+  transition: transform 0.3s ease; 
 }
 
 footer a {
@@ -176,7 +176,7 @@ footer a:hover {
   text-align: center;
   padding: 2rem;
   margin: 2rem auto;
-  max-width: 800px; /* Increase the max-width */
+  max-width: 800px; 
   background-color: #fff;
   border: 2px solid #4a90e2;
   border-radius: 10px;
@@ -210,7 +210,7 @@ footer a:hover {
   text-align: center;
   padding: 2rem;
   margin: 2rem auto;
-  max-width: 1000px; /* Increase the max-width */
+  max-width: 1000px; 
   background-color: #fff;
   border: 2px solid #4a90e2;
   border-radius: 10px;
@@ -220,15 +220,15 @@ footer a:hover {
 .resume iframe {
   border: none;
   margin-bottom: 1rem;
-  width: 90%; /* Adjust the width */
-  height: 80vh; /* Adjust the height */
+  width: 90%; 
+  height: 80vh; 
 }
 
 .proficiencies {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  width: 90%; /* Ensure the list takes the full width */
+  width: 90%; 
 }
 
 .proficiencies li {

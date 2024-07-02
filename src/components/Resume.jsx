@@ -1,6 +1,6 @@
 import React from 'react';
 import resume from '../assets/yong.pdf';
-
+//resume page wiht iframe
 const Resume = () => (
   <section className="resume">
     <h2>Resume</h2>

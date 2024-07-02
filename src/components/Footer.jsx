@@ -2,6 +2,7 @@ import React from 'react';
 import githubIcon from '../assets/github.png';
 import linkedinIcon from '../assets/linkedin.png';
 import twitterIcon from '../assets/twitter.png';
+//footer page
 
 const Footer = () => (
   <footer className="footer">

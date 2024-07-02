@@ -1,6 +1,6 @@
 import React from 'react';
 import profileImage from '../assets/yong.png';
-
+//About me page to root
 const AboutMe = () => (
   <section className="about-me">
     <h2>About Me</h2>

@@ -1,4 +1,5 @@
 import React from 'react';
+//project button
 
 const Project = ({ title, image, deployedLink, repoLink }) => (
   <div className="project">

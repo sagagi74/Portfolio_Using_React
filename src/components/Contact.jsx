@@ -1,31 +1,35 @@
 import React, { useState } from 'react';
 
+// Contact component
 const Contact = () => {
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
-  const [errors, setErrors] = useState({});
+  const [formData, setFormData] = useState({ name: '', email: '', message: '' }); // State for form data
+  const [errors, setErrors] = useState({}); // State for form validation errors
 
+  // Handle form input changes
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
 
+  // Validate form inputs
   const validate = () => {
     const newErrors = {};
-    if (!formData.name) newErrors.name = 'Name Field can not be empty';
-    if (!formData.email) newErrors.email = 'Email Name Field can not be empty';
-    else if (!/\S+@\S+\.\S+/.test(formData.email)) newErrors.email = 'Email Name Field can not be empty';
-    if (!formData.message) newErrors.message = 'Message Name Field can not be empty';
+    if (!formData.name) newErrors.name = 'Name field cannot be empty';
+    if (!formData.email) newErrors.email = 'Email field cannot be empty';
+    else if (!/\S+@\S+\.\S+/.test(formData.email)) newErrors.email = 'Invalid email format';
+    if (!formData.message) newErrors.message = 'Message field cannot be empty';
     return newErrors;
   };
 
+  // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
     const formErrors = validate();
     if (Object.keys(formErrors).length === 0) {
       console.log('Form submitted', formData);
-      // nothing happends becuase I did not implment email api yet
+      // nothing happens because I did not implement the email API yet
     } else {
-      setErrors(formErrors);
+      setErrors(formErrors); // Set validation errors if any
     }
   };
 

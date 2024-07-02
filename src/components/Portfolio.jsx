@@ -2,6 +2,7 @@ import React from 'react';
 import Project from './Project';
 import image1 from '../assets/goat_ecommerce.jpg';
 import image2 from '../assets/Project_Goat_Small.jpg';
+//portfolio page 
 
 const projects = [
   {
@@ -16,7 +17,7 @@ const projects = [
     deployedLink: 'https://ojds2022.github.io/goat_calorie_tracker/',
     repoLink: 'https://github.com/ojds2022/goat_calorie_tracker'
   },
-  // Add more projects as needed
+  
 ];
 
 const Portfolio = () => (
