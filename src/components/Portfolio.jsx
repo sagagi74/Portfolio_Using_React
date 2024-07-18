@@ -15,7 +15,7 @@ const projects = [
     title: 'Goat_Ecommerce MERN 2.0',
     image: image7,
     deployedLink: 'https://agile-anchorage-91815-86c9ccb72548.herokuapp.com/products',
-    repoLink: 'https://github.com/ojds2022/Goat_E-Commerce'
+    repoLink: 'https://github.com/ojds2022/Project_Three'
   },
   {
     title: 'Goat_Ecommerce',
