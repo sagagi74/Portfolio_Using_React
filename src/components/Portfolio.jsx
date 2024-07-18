@@ -7,6 +7,7 @@ import image4 from '../assets/React.jpg';
 import image5 from '../assets/note.gif';
 import image6 from '../assets/backend.gif';
 import image7 from '../assets/mern.gif';
+import image8 from '../assets/mongo.gif';
 //portfolio page 
 
 const projects = [
@@ -16,6 +17,12 @@ const projects = [
     image: image7,
     deployedLink: 'https://agile-anchorage-91815-86c9ccb72548.herokuapp.com/products',
     repoLink: 'https://github.com/ojds2022/Project_Three'
+  },
+  {
+    title: 'MongoDB_NoSQL_Social_Network_API',
+    image: image8,
+    deployedLink: 'https://youtu.be/5j2KSRf1pqA',
+    repoLink: 'https://github.com/sagagi74/MongoDB_NoSQL_Social_Network_API'
   },
   {
     title: 'Goat_Ecommerce',
