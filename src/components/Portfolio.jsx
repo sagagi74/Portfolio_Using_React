@@ -6,21 +6,25 @@ import image3 from '../assets/mvc.gif';
 import image4 from '../assets/React.jpg';
 import image5 from '../assets/note.gif';
 import image6 from '../assets/backend.gif';
+import image7 from '../assets/mern.gif';
 //portfolio page 
 
 const projects = [
+
   {
-    title: 'goat_ecommerce',
-    image: image1,
+    title: 'Goat_Ecommerce MERN 2.0',
+    image: image7,
     deployedLink: 'https://agile-anchorage-91815-86c9ccb72548.herokuapp.com/products',
     repoLink: 'https://github.com/ojds2022/Goat_E-Commerce'
   },
   {
-    title: 'goat_calorie_tracker',
-    image: image2,
-    deployedLink: 'https://ojds2022.github.io/goat_calorie_tracker/',
-    repoLink: 'https://github.com/ojds2022/goat_calorie_tracker'
+    title: 'Goat_Ecommerce',
+    image: image1,
+    deployedLink: 'https://agile-anchorage-91815-86c9ccb72548.herokuapp.com/products',
+    repoLink: 'https://github.com/ojds2022/Goat_E-Commerce'
   },
+ 
+ 
   {
     title: 'Tech Blog using MVC',
     image: image3,
@@ -44,6 +48,12 @@ const projects = [
     image: image6,
     deployedLink: 'https://www.youtube.com/watch?v=BfQpxCIaK7o',
     repoLink: 'https://github.com/sagagi74/ORM_Ecommerce_Back_End'
+  },
+  {
+    title: 'Goat_Calorie_tracker',
+    image: image2,
+    deployedLink: 'https://ojds2022.github.io/goat_calorie_tracker/',
+    repoLink: 'https://github.com/ojds2022/goat_calorie_tracker'
   },
   
 ];
