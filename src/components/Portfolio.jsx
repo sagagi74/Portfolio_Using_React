@@ -16,7 +16,7 @@ const projects = [
     title: 'Goat_Ecommerce MERN 2.0',
     image: image7,
     deployedLink: 'https://boiling-bastion-87037-4394261bcf08.herokuapp.com',
-    repoLink: 'https://github.com/ojds2022/Project_Three'
+    repoLink: 'https://github.com/ojds2022/Goat_E_Commerce_2.0'
   },
   {
     title: 'MongoDB_NoSQL_Social_Network_API',
