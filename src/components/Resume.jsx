@@ -21,6 +21,7 @@ const Resume = () => (
       <li>Node.js</li>
       <li>Express</li>
       <li>MongoDB</li>
+      <li>MERN</li>
       {/* Add more proficiencies as needed */}
     </ul>
   </section>
