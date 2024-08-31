@@ -13,7 +13,7 @@ import image8 from '../assets/mongo.gif';
 const projects = [
 
   {
-    title: 'Goat_Ecommerce MERN 2.0',
+    title: 'Goat_Ecommerce MERN(MongoDB, Express.js, React.js, and Node.js) 2.0',
     image: image7,
     deployedLink: 'https://boiling-bastion-87037-4394261bcf08.herokuapp.com',
     repoLink: 'https://github.com/ojds2022/Goat_E_Commerce_2.0'
