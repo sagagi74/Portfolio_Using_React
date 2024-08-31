@@ -9,7 +9,7 @@ const Footer = () => (
     <a href="https://github.com/sagagi74" target="_blank" rel="noopener noreferrer" className="icon">
       <img src={githubIcon} alt="GitHub" className="icon-image" />
     </a>
-    <a href="https://www.linkedin.com/in/tim-yong-woo-yun-0a272245/" target="_blank" rel="noopener noreferrer" className="icon">
+    <a href="https://www.linkedin.com/in/timothy-yong-yun-0a272245/" target="_blank" rel="noopener noreferrer" className="icon">
       <img src={linkedinIcon} alt="LinkedIn" className="icon-image" />
     </a>
     <a href="https://x.com/home?lang=en" target="_blank" rel="noopener noreferrer" className="icon">
